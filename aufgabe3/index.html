@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple IP-Tool</title>
+    <style type="text/css">
+        div {
+            background-color: #c4c4c4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        body {
+            margin: auto;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+<div><h1><u>Simple IP-Tool</u></h1>
+    <form action="ping.php" method="post">
+        <table width="400" height="126" class="table">
+            <tr>
+                <td>Netzwerkbasis:</td>
+                <td><input type="Text" name="T_Netzwerkbasis" value="10.22.56"/></td>
+            </tr>
+            <tr>
+                <td>Host-Startadresse:</td>
+                <td><input type="Text" name="T_Host-Startadresse" value="10"/></td>
+            </tr>
+            <tr>
+                <td>Host-Endadresse:</td>
+                <td><input type="Text" name="T_Host-Endadresse" value="40"/></td>
+            </tr>
+            <td>Nur ungerade IP-Adressen</td>
+            <td><input type="checkbox" name="CB_odd" value=""></td>
+            <tr>
+                <td colspan="2" align="center"><input name="BtnOK" type="submit" value="Ping"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
