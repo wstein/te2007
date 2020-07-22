@@ -25,44 +25,46 @@ $anrede = $_POST["PD_Anrede"];
    <table border="1">
       <tr>
          <td>Produkt</td>
-         <td><?= $produkte ?></td>
+         <td>
+            <?= $produkte ?>
+         </td>
       </tr>
       <tr>
          <td>Anrede</td>
-         <td> $anrede </td>
+         <td><?= $anrede ?></td>
       </tr>
 
       <tr>
          <td>Vorname</td>
-         <td> $vorname </td>
+         <td><?= $vorname ?></td>
       </tr>
       <tr>
          <td>Nachname</td>
-         <td> $name</td>
+         <td><?= $name ?></td>
       </tr>
       <tr>
          <td>PLZ</td>
-         <td> $plz </td>
+         <td><?= $plz ?></td>
       </tr>
       <tr>
          <td>Ort</td>
-         <td> $ort </td>
+         <td><?= $ort ?></td>
       </tr>
       <tr>
          <td>Strasse</td>
-         <td> $strasse </td>
+         <td><?= $strasse ?></td>
       </tr>
       <tr>
          <td>Hausnummer</td>
-         <td> $hausnr</td>
+         <td><?= $hausnr ?></td>
       </tr>
       <tr>
          <td>Email</td>
-         <td> $email</td>
+         <td><?= $email ?></td>
       </tr>
       <tr>
          <td>Bemerkung</td>
-         <td> $kommentar</td>
+         <td><?= $kommentar ?></td>
       </tr>
 
    </table>
