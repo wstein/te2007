@@ -1,0 +1,85 @@
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Störungserfassung
+   </title>
+</head>
+
+<body>
+   <h1>Formular zur Störungserfassung</h1>
+   <p>Bitte f&uuml;llen Sie die nachfolgenden Eingabefelder aus<br></p>
+   <p>
+      <form action="kontaktformular.php" method="POST">
+         <table>
+            <tr>
+               <td>
+                  <label for="produkte">Produkt:</label>
+               </td>
+               <td>
+                  <select name="produkte" id="produkte">
+                     <option value="i3">i3</option>
+                     <option value="i5">i5</option>
+                     <option value="i55">i55</option>
+                     <option value="IPO">IPO</option>
+                     <option value="Aura">Aura</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td><label for="PD_Anrede">Anrede</label>
+
+               </td>
+               <td>
+                  <select name="PD_Anrede" id="PD_Anrede">
+                     <option value="Herr" selected="selected">Herr</option>
+                     <option value="Frau">Frau</option>
+                     <option value="Dr.">Dr.</option>
+                     <option value="Prof.">Prof.</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td>Vorname:</td>
+               <td><input type="Text" name="T_KndVorname" value="" /></td>
+            </tr>
+            <tr>
+               <td>Nachname:</td>
+               <td><input type="Text" name="T_KndName" value="" /></td>
+            </tr>
+            <tr>
+               <td>PLZ:</td>
+               <td><input type="number" name="T_KndPLZ" value="" /></td>
+            </tr>
+            <tr>
+               <td>Ort:</td>
+               <td><input type="Text" name="T_KndOrt" value="" /></td>
+            </tr>
+            <tr>
+               <td>Stra&szlig;e:</td>
+               <td><input type="Text" name="T_KndStrasse" value="" /></td>
+            </tr>
+            <tr>
+               <td>Hausnummer:</td>
+               <td><input type="number" name="T_KndHausNr" value="" /></td>
+            </tr>
+            <tr>
+               <td>Email:</td>
+               <td><input type="email" name="T_Email" value="" maxlength="20" /></td>
+            </tr>
+            <tr>
+               <td>Nachricht:</td>
+               <td>
+                  <textarea name="TA_Nachricht" rows="5" cols="22"></textarea>
+               </td>
+            </tr>
+            
+
+
+         </table>
+         <input type="submit" name="B_Submit" value="senden" />
+      </form>
+   </p>
+</body>
+
+</html>
